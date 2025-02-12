@@ -1,5 +1,5 @@
 BOT_NAME = 'sylph'
-SPIDER_MODULES = ['crawler']
+SPIDER_MODULES = ['crawler.spider']
 NEWSPIDER_MODULE = 'crawler'
 
 USER_AGENT = 'Sylph Search Engine Bot (+ http://yourdomain.com)'
@@ -7,9 +7,7 @@ CONCURRENT_REQUESTS = 32
 DOWNLOAD_DELAY = 1
 
 COOKIES_ENABLED = False
-ITEM_PIPELINES = {
-    ... # to add later
-}
+ITEM_PIPELINES = {}
 
 HTTPCACHE_ENABLED = True
 HTTPCACHE_EXPIRATION_SECS = 0

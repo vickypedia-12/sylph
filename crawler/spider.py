@@ -51,7 +51,7 @@ class SylphSpider(scrapy.Spider):
 
         for link in response.css('a::attr(href)').getall():
             parsed_link = urlparse(response.urljoin(link))
-            if parsed_link.net_loc in self.allowed_domains:
+            if parsed_link.netloc in self.allowed_domains:
                 yield scrapy.Request(
                     response.urljoin(link),
                     callback=self.parse,

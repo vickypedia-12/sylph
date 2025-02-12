@@ -2,7 +2,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from crawler.spider import SylphSpider
 def run_spider():
-    settings = get_project_settings
+    settings = get_project_settings()
 
     process = CrawlerProcess(settings)
     start_urls = [
