@@ -5,7 +5,7 @@ from typing import Any, Generator
 class SylphSpider(scrapy.Spider):
     name = "sylph_spider"
     custom_settings = {
-        'ROBOTSTXT_OBEY': True,
+        'ROBOTSTXT_OBEY': False,
         'CONCURRENT_REQUESTS': 32,
         'DOWNLOAD_DELAY': 1,
         'COOKIES_ENABLED': False,
