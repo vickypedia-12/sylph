@@ -12,6 +12,9 @@ class SylphSpider(scrapy.Spider):
         'CONCURRENT_REQUESTS': 32,
         'DOWNLOAD_DELAY': 1,
         'COOKIES_ENABLED': False,
+        'DEPTH_LIMIT': 2,
+        'DOWNLOAD_TIMEOUT': 15,
+        'LOG_LEVEL': 'INFO',
     }
 
     def __init__(self,start_urls = None,allowed_domains = None, *args, **kwargs):
@@ -34,19 +37,13 @@ class SylphSpider(scrapy.Spider):
                 return
 
             visible_text = ' '.join([
-                text.strip() for text in response.css('body *::text').getall()
+                text.strip() for text in response.css('body *:not(script):not(style)::text').getall()
                 if text.strip() and not text.strip().startswith(('<', '[', '{'))  
             ])
 
             if not visible_text:
                 logger.warning(f"No visible text content found at {response.url}")
-                return
-            
-            
-            visible_text = ' '.join([
-                text.strip() for text in response.css('body *::text').getall()
-                if text.strip() and not text.strip().startswith(('<', '[', '{'))  
-            ])
+                return 
             content = {
                 'url': response.url,
                 'title': response.css('title::text').get('').strip(),
@@ -56,39 +53,42 @@ class SylphSpider(scrapy.Spider):
                 'headers' :[
                     h.strip() for h in response.css('h1::text, h2::text, h3::text').getall()
                     if h.strip()
-                ],
-                'links' : [
-                    {
-                        'url' : response.urljoin(href),
-                        'text' : text.strip()
-                    }
-                    for href, text in zip(
-                        response.css('a::attr(href)').getall(),
-                        response.css('a::text').getall()
-                    )
-
-                    if href and text.strip()
                 ]
             }
-
+            # content = {
+            #     'url': response.url,
+            #     'title': response.css('title::text').get('').strip(),
+            #     'text': visible_text,
+            #     'meta_description': response.css('meta[name="description"]::attr(content)').get(''),
+            #     'meta_keywords': response.css('meta[name="keywords"]::attr(content)').get('')
+            # }
+            logger.info(f"Extracted {len(visible_text)} characters of text from {response.url}")
             yield content
             
             current_depth = response.meta.get('depth', 0)
             if current_depth < self.settings.getint('DEPTH_LIMIT', 2):
+                base_domain = urlparse(response.url).netloc
+                
                 for link in response.css('a::attr(href)').getall():
                     try:
-                        parsed_link = urlparse(response.urljoin(link))
-                        if parsed_link.netloc in self.allowed_domains:
+                        absolute_url = response.urljoin(link)
+                        parsed_url = urlparse(absolute_url)
+                        
+
+                        if parsed_url.netloc == base_domain:
                             yield scrapy.Request(
-                                response.urljoin(link),
+                                absolute_url,
                                 callback=self.parse,
-                                meta={'depth': current_depth + 1},
-                                errback=self.errback,
+                                meta={
+                                    'depth': current_depth + 1,
+                                    'dont_redirect': True
+                                },
                                 dont_filter=False
                             )
                     except Exception as e:
                         logger.error(f"Error following link {link} from {response.url}: {str(e)}")
 
+            
         except Exception as e:
             logger.error(f"Error parsing {response.url}: {str(e)}")
             return

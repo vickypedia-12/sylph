@@ -33,19 +33,19 @@ async def lifespan(app: FastAPI):
         index_file = os.path.join(index_dir, 'index.json')
         if os.path.exists(index_file):
             index.load_index(index_file)
-            logger.info(f"Loaded index with {len(index.index)} tokens from {index_file}")
+            logger.info(f"Loaded index with {len(index.trie)} tokens from {index_file}")
     except Exception as e:
         logger.error(f"Error during startup: {e}")
 
     yield
 
     try:
-        if len(index.index) > 0:
+        if len(index.trie) > 0:
             index_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'index', 'data')
             index_file = os.path.join(index_dir, 'index.json')
             os.makedirs(index_dir, exist_ok=True)
             index.save_index(index_file)
-            logger.info(f"Saved index with {len(index.index)} tokens on shutdown")
+            logger.info(f"Saved index with {len(index.trie)} tokens on shutdown")
     except Exception as e:
         logger.error(f"Error during shutdown: {str(e)}")
 
@@ -108,21 +108,23 @@ async def start_crawler(urls: List[str]):
             
 
         for item in crawled_data:
+            full_text = f"{item['title']} {item['meta_description']} {item['text']}"
             index.add_document(
                 doc_id=item['url'],
-                text=item['text'],
-                title=item['title']
+                title=item['title'],
+                text=full_text
+               
             )
 
         index_file = os.path.join(index_dir, 'index.json')
-        print(f"Saving index with {len(index.index)} tokens")
+        print(f"Saving index with {len(index.trie)} tokens")
         index.save_index(index_file)
 
 
         return {
             "Message": "Crawling Complete",
             "Documents_Crawled": len(crawled_data),
-            "Tokens_Indexed": len(index.index),
+            "Tokens_Indexed": len(index.trie),
             "Data": crawled_data
         }
     except Exception as e:
@@ -130,19 +132,53 @@ async def start_crawler(urls: List[str]):
 
 @app.get("/search/")
 async def search(query: str, limit: Optional[int] = 10):
+    outputFile = os.path.join(os.path.dirname(__file__), 'output.jsonl')
+    if os.path.exists(outputFile):
+            with open(outputFile, 'r') as f:
+                crawled_data = [json.loads(line) for line in f if line.strip()]
     if not crawled_data:
         raise HTTPException(status_code=404, detail="No crawled data available")
     
-    matching_urls = search_engine.search(query, limit)
-    results = [
-        item for item in crawled_data
-        if item['url'] in matching_urls
-    ]
+    scored_results = search_engine.search(query, limit)
+    results = []
+    for doc_score in scored_results:
+           
+        doc = next((item for item in crawled_data if item['url'] == doc_score.doc_id), None)
+        if doc:
+            text = doc['text']
+            query_terms = query.lower().split()
+            snippet = ""
+            
+            if text:
+                best_pos = min(doc_score.positions) if doc_score.positions else float('inf')
+                if best_pos != float('inf'):
+                    start = max(0, best_pos - 100)
+                    end = min(len(text), best_pos + 200)
+                    snippet = text[start:end].strip()
+                    if start > 0:
+                        snippet = f"...{snippet}"
+                    if end < len(text):
+                        snippet = f"{snippet}..."
+            
+            results.append({
+                'url': doc['url'],
+                'title': doc['title'],
+                'description': doc['meta_description'],
+                'snippet': snippet if snippet else doc['meta_description'],
+                'score': doc_score.score,
+                'matches': {
+                    'title': doc_score.title_match,
+                    'description': doc_score.description_match
+                }
+            })
+
+    # Sort by score (already sorted by search engine, but just to be sure)
+    results.sort(key=lambda x: x['score'], reverse=True)
 
     return {
         "query": query,
         "results_count": len(results),
-        "results": results
+        "results": results[:limit]
     }
 
 

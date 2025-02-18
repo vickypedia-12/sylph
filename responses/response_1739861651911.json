@@ -1,0 +1,842 @@
+{
+  "query": "python",
+  "results_count": 1,
+  "results": [
+    {
+      "url": "https://www.python.org/",
+      "title": "Welcome to Python.org",
+      "text": "Notice: While JavaScript is not essential for this website, your interaction with the content will be limited. Please turn JavaScript on for the full experience. Skip to content ▼ Close Python PSF Docs PyPI Jobs Community ▲ The Python Network Donate ≡ Menu Search This Site GO A A Smaller Larger Reset Socialize LinkedIn Mastodon Chat on IRC Twitter About Applications Quotes Getting Started Help Python Brochure Downloads All releases Source code Windows macOS Other Platforms License Alternative Implementations Documentation Docs Audio/Visual Talks Beginner's Guide Developer's Guide FAQ Non-English Docs PEP Index Python Books Python Essays Community Diversity Mailing Lists IRC Forums PSF Annual Impact Report Python Conferences Special Interest Groups Python Logo Python Wiki Code of Conduct Community Awards Get Involved Shared Stories Success Stories Arts Business Education Engineering Government Scientific Software Development News Python News PSF Newsletter PSF News PyCon US News News from the Community Events Python Events User Group Events Python Events Archive User Group Events Archive Submit an Event >_ Launch Interactive Shell # Python 3: Fibonacci series up to n >>> def fib(n):\r\n>>>     a, b = 0, 1\r\n>>>     while a < n:\r\n>>>         print(a, end=' ')\r\n>>>         a, b = b, a+b\r\n>>>     print()\r\n>>> fib(1000) 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 Functions Defined The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists. More about defining functions in Python 3 # Python 3: List comprehensions >>> fruits = ['Banana', 'Apple', 'Lime']\r\n>>> loud_fruits = [fruit.upper() for fruit in fruits]\r\n>>> print(loud_fruits) # List and the enumerate function >>> list(enumerate(fruits)) Compound Data Types Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions. More about lists in Python 3 # Python 3: Simple arithmetic >>> 1 / 2 0.5 >>> 2 ** 3 8 >>> 17 / 3 # classic division returns a float 5.666666666666667 >>> 17 // 3 # floor division 5 Intuitive Interpretation Calculations are simple with Python, and expression syntax is straightforward: the operators + , - , * and / work as expected; parentheses () can be used for grouping. More about simple math functions in Python 3 . # For loop on a list >>> numbers = [2, 4, 6, 8]\r\n>>> product = 1\r\n>>> for number in numbers:\r\n...    product = product * number\r\n... \r\n>>> print('The product is:', product) The product is: 384 All the Flow You’d Expect Python knows the usual control flow statements that other languages speak — if , for , while and range — with some of its own twists, of course. More control flow tools in Python 3 # Simple output (with Unicode) >>> print(\"Hello, I'm Python!\") Hello, I'm Python! # Input, assignment >>> name = input('What is your name?\\n') What is your name?\r\nPython >>> print(f'Hi, {name}.') Hi, Python. Quick & Easy to Learn Experienced programmers in any other language can pick up Python very quickly, and beginners find the clean syntax and indentation structure easy to learn. Whet your appetite with our Python 3 overview. Python is a programming language that lets you work quickly and integrate systems more effectively. Learn More Get Started Whether you're new to programming or an experienced developer, it's easy to learn and use Python. Start with our Beginner’s Guide Download Python source code and installers are available for download for all versions! Latest: Python 3.13.2 Docs Documentation for Python's standard library, along with tutorials and guides, are available online. docs.python.org Jobs Looking for work or have a Python related position that you're trying to hire for? Our relaunched community-run job board is the place to go. jobs.python.org Latest News More 2025- 02-11 Python 3.14.0 alpha 5 is out 2025- 02-04 Python 3.13.2 and 3.12.9 now available! 2025- 01-15 PSF Newsletter: Awards, Grants, & PyCon US 2025! 2025- 01-14 Python 3.14.0 alpha 4 is out 2025- 01-14 Powering Python together in 2025, thanks to our community! Upcoming Events More 2025- 02-20 Workshop: Creating Python Communities 2025- 02-21 Django Girls Koforidua 2025- 02-22 DjangoCongress JP 2025 2025- 02-22 PyConf Hyderabad 2025 2025- 02-22 Python Weekend Abuja Success Stories More Since its founding in 2007, Lincoln Loop has been building sites for their clients with Python and Django. They credit Python's philosophy of practicality and explicitness, along with the rich ecosystem of open-source libraries available on PyPI, as keys to their success. Additionally, the inclusivity, openness, and strong culture of collaboration in the Python community have enabled the agency to find and hire great people who are lifelong learners. Lincoln Loop: Building a sustainable business inspired by Python’s ethos by Peter Baumgartner Use Python for… More Web Development : Django , Pyramid , Bottle , Tornado , Flask , web2py GUI Development : tkInter , PyGObject , PyQt , PySide , Kivy , wxPython , DearPyGui Scientific and Numeric : SciPy , Pandas , IPython Software Development : Buildbot , Trac , Roundup System Administration : Ansible , Salt , OpenStack , xonsh >>> Python Software Foundation The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. Learn more Become a Member Donate to the PSF ▲ Back to Top About Applications Quotes Getting Started Help Python Brochure Downloads All releases Source code Windows macOS Other Platforms License Alternative Implementations Documentation Docs Audio/Visual Talks Beginner's Guide Developer's Guide FAQ Non-English Docs PEP Index Python Books Python Essays Community Diversity Mailing Lists IRC Forums PSF Annual Impact Report Python Conferences Special Interest Groups Python Logo Python Wiki Code of Conduct Community Awards Get Involved Shared Stories Success Stories Arts Business Education Engineering Government Scientific Software Development News Python News PSF Newsletter PSF News PyCon US News News from the Community Events Python Events User Group Events Python Events Archive User Group Events Archive Submit an Event Contributing Developer's Guide Issue Tracker python-dev list Core Mentorship Report a Security Issue ▲ Back to Top Help & General Contact Diversity Initiatives Submit Website Bug Status Copyright ©2001-2025. Python Software Foundation Legal Statements Privacy Notice window.jQuery || document.write('<script src=\"/static/js/libs/jquery-1.8.2.min.js\"><\\/script>') window.jQuery || document.write('<script src=\"/static/js/libs/jquery-ui-1.12.1.min.js\"><\\/script>')",
+      "meta_description": "The official home of the Python Programming Language",
+      "meta_keywords": "Python programming language object oriented web free open source software license documentation download community",
+      "headers": [
+        "Functions Defined",
+        "Compound Data Types",
+        "Intuitive Interpretation",
+        "All the Flow You’d Expect",
+        "Quick & Easy to Learn",
+        "Get Started",
+        "Download",
+        "Docs",
+        "Jobs",
+        "Latest News",
+        "Upcoming Events",
+        "Success Stories",
+        "Use Python for…"
+      ],
+      "links": [
+        {
+          "url": "https://www.python.org/#content",
+          "text": "Skip to content"
+        },
+        {
+          "url": "https://www.python.org/",
+          "text": "Close"
+        },
+        {
+          "url": "https://www.python.org/psf/",
+          "text": "Python"
+        },
+        {
+          "url": "https://docs.python.org",
+          "text": "PSF"
+        },
+        {
+          "url": "https://pypi.org/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://www.python.org/jobs/",
+          "text": "PyPI"
+        },
+        {
+          "url": "https://www.python.org/community/",
+          "text": "Jobs"
+        },
+        {
+          "url": "https://www.python.org/#top",
+          "text": "Community"
+        },
+        {
+          "url": "https://psfmember.org/civicrm/contribute/transact?reset=1&id=2",
+          "text": "The Python Network"
+        },
+        {
+          "url": "https://www.python.org/#site-map",
+          "text": "Donate"
+        },
+        {
+          "url": "https://www.python.org/",
+          "text": "Menu"
+        },
+        {
+          "url": "javascript:;",
+          "text": "Smaller"
+        },
+        {
+          "url": "javascript:;",
+          "text": "Larger"
+        },
+        {
+          "url": "javascript:;",
+          "text": "Reset"
+        },
+        {
+          "url": "https://www.python.org/",
+          "text": "Socialize"
+        },
+        {
+          "url": "https://www.linkedin.com/company/python-software-foundation/",
+          "text": "LinkedIn"
+        },
+        {
+          "url": "https://fosstodon.org/@ThePSF",
+          "text": "Mastodon"
+        },
+        {
+          "url": "https://www.python.org/community/irc/",
+          "text": "Chat on IRC"
+        },
+        {
+          "url": "https://twitter.com/ThePSF",
+          "text": "Twitter"
+        },
+        {
+          "url": "https://www.python.org/about/",
+          "text": "About"
+        },
+        {
+          "url": "https://www.python.org/about/apps/",
+          "text": "Applications"
+        },
+        {
+          "url": "https://www.python.org/about/quotes/",
+          "text": "Quotes"
+        },
+        {
+          "url": "https://www.python.org/about/gettingstarted/",
+          "text": "Getting Started"
+        },
+        {
+          "url": "https://www.python.org/about/help/",
+          "text": "Help"
+        },
+        {
+          "url": "http://brochure.getpython.info/",
+          "text": "Python Brochure"
+        },
+        {
+          "url": "https://www.python.org/downloads/",
+          "text": "Downloads"
+        },
+        {
+          "url": "https://www.python.org/downloads/",
+          "text": "All releases"
+        },
+        {
+          "url": "https://www.python.org/downloads/source/",
+          "text": "Source code"
+        },
+        {
+          "url": "https://www.python.org/downloads/windows/",
+          "text": "Windows"
+        },
+        {
+          "url": "https://www.python.org/downloads/macos/",
+          "text": "macOS"
+        },
+        {
+          "url": "https://www.python.org/download/other/",
+          "text": "Other Platforms"
+        },
+        {
+          "url": "https://docs.python.org/3/license.html",
+          "text": "License"
+        },
+        {
+          "url": "https://www.python.org/download/alternatives",
+          "text": "Alternative Implementations"
+        },
+        {
+          "url": "https://www.python.org/doc/",
+          "text": "Documentation"
+        },
+        {
+          "url": "https://www.python.org/doc/",
+          "text": "Docs"
+        },
+        {
+          "url": "https://www.python.org/doc/av",
+          "text": "Audio/Visual Talks"
+        },
+        {
+          "url": "https://wiki.python.org/moin/BeginnersGuide",
+          "text": "Beginner's Guide"
+        },
+        {
+          "url": "https://devguide.python.org/",
+          "text": "Developer's Guide"
+        },
+        {
+          "url": "https://docs.python.org/faq/",
+          "text": "FAQ"
+        },
+        {
+          "url": "http://wiki.python.org/moin/Languages",
+          "text": "Non-English Docs"
+        },
+        {
+          "url": "https://peps.python.org",
+          "text": "PEP Index"
+        },
+        {
+          "url": "https://wiki.python.org/moin/PythonBooks",
+          "text": "Python Books"
+        },
+        {
+          "url": "https://www.python.org/doc/essays/",
+          "text": "Python Essays"
+        },
+        {
+          "url": "https://www.python.org/community/",
+          "text": "Community"
+        },
+        {
+          "url": "https://www.python.org/community/diversity/",
+          "text": "Diversity"
+        },
+        {
+          "url": "https://www.python.org/community/lists/",
+          "text": "Mailing Lists"
+        },
+        {
+          "url": "https://www.python.org/community/irc/",
+          "text": "IRC"
+        },
+        {
+          "url": "https://www.python.org/community/forums/",
+          "text": "Forums"
+        },
+        {
+          "url": "https://www.python.org/psf/annual-report/2021/",
+          "text": "PSF Annual Impact Report"
+        },
+        {
+          "url": "https://www.python.org/community/workshops/",
+          "text": "Python Conferences"
+        },
+        {
+          "url": "https://www.python.org/community/sigs/",
+          "text": "Special Interest Groups"
+        },
+        {
+          "url": "https://www.python.org/community/logos/",
+          "text": "Python Logo"
+        },
+        {
+          "url": "https://wiki.python.org/moin/",
+          "text": "Python Wiki"
+        },
+        {
+          "url": "https://www.python.org/psf/conduct/",
+          "text": "Code of Conduct"
+        },
+        {
+          "url": "https://www.python.org/community/awards",
+          "text": "Community Awards"
+        },
+        {
+          "url": "https://www.python.org/psf/get-involved/",
+          "text": "Get Involved"
+        },
+        {
+          "url": "https://www.python.org/psf/community-stories/",
+          "text": "Shared Stories"
+        },
+        {
+          "url": "https://www.python.org/success-stories/",
+          "text": "Success Stories"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/arts/",
+          "text": "Arts"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/business/",
+          "text": "Business"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/education/",
+          "text": "Education"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/engineering/",
+          "text": "Engineering"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/government/",
+          "text": "Government"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/scientific/",
+          "text": "Scientific"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/software-development/",
+          "text": "Software Development"
+        },
+        {
+          "url": "https://www.python.org/blogs/",
+          "text": "News"
+        },
+        {
+          "url": "https://www.python.org/blogs/",
+          "text": "Python News"
+        },
+        {
+          "url": "https://www.python.org/psf/newsletter/",
+          "text": "PSF Newsletter"
+        },
+        {
+          "url": "http://pyfound.blogspot.com/",
+          "text": "PSF News"
+        },
+        {
+          "url": "http://pycon.blogspot.com/",
+          "text": "PyCon US News"
+        },
+        {
+          "url": "http://planetpython.org/",
+          "text": "News from the Community"
+        },
+        {
+          "url": "https://www.python.org/events/",
+          "text": "Events"
+        },
+        {
+          "url": "https://www.python.org/events/python-events/",
+          "text": "Python Events"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/",
+          "text": "User Group Events"
+        },
+        {
+          "url": "https://www.python.org/events/python-events/past/",
+          "text": "Python Events Archive"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/past/",
+          "text": "User Group Events Archive"
+        },
+        {
+          "url": "https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event",
+          "text": "Submit an Event"
+        },
+        {
+          "url": "https://www.python.org/shell/",
+          "text": ">_"
+        },
+        {
+          "url": "https://docs.python.org/3/tutorial/introduction.html#lists",
+          "text": "More about defining functions in Python 3"
+        },
+        {
+          "url": "http://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator",
+          "text": "More about lists in Python 3"
+        },
+        {
+          "url": "https://docs.python.org/3/tutorial/controlflow.html",
+          "text": "More about simple math functions in Python 3"
+        },
+        {
+          "url": "https://docs.python.org/3/tutorial/",
+          "text": "More control flow tools in Python 3"
+        },
+        {
+          "url": "https://www.python.org/doc/",
+          "text": "Whet your appetite"
+        },
+        {
+          "url": "https://www.python.org/about/gettingstarted/",
+          "text": "Learn More"
+        },
+        {
+          "url": "https://www.python.org/downloads/release/python-3132/",
+          "text": "Start with our Beginner’s Guide"
+        },
+        {
+          "url": "https://docs.python.org",
+          "text": "Python 3.13.2"
+        },
+        {
+          "url": "https://jobs.python.org",
+          "text": "docs.python.org"
+        },
+        {
+          "url": "https://blog.python.org",
+          "text": "jobs.python.org"
+        },
+        {
+          "url": "https://pythoninsider.blogspot.com/2025/02/python-3140-alpha-5-is-out.html",
+          "text": "More"
+        },
+        {
+          "url": "https://pythoninsider.blogspot.com/2025/02/python-3132-and-3129-now-available.html",
+          "text": "Python 3.14.0 alpha 5 is out"
+        },
+        {
+          "url": "https://mailchi.mp/python/python-software-foundation-july-2024-newsletter-19875956",
+          "text": "Python 3.13.2 and 3.12.9 now available!"
+        },
+        {
+          "url": "https://pythoninsider.blogspot.com/2025/01/python-3140-alpha-4-is-out.html",
+          "text": "PSF Newsletter: Awards, Grants, & PyCon US 2025!"
+        },
+        {
+          "url": "https://pyfound.blogspot.com/2025/01/powering-python-together-in-2025-thanks.html",
+          "text": "Python 3.14.0 alpha 4 is out"
+        },
+        {
+          "url": "https://www.python.org/events/calendars/",
+          "text": "Powering Python together in 2025, thanks to our community!"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/1965/",
+          "text": "More"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/1868/",
+          "text": "Workshop: Creating Python Communities"
+        },
+        {
+          "url": "https://www.python.org/events/python-events/1874/",
+          "text": "Django Girls Koforidua"
+        },
+        {
+          "url": "https://www.python.org/events/python-events/1895/",
+          "text": "DjangoCongress JP 2025"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/1929/",
+          "text": "PyConf Hyderabad 2025"
+        },
+        {
+          "url": "https://www.python.org/success-stories/",
+          "text": "Python Weekend Abuja"
+        },
+        {
+          "url": "https://www.python.org/success-stories/lincoln-loop-building-a-sustainable-business-inspired-by-pythons-ethos/",
+          "text": "More"
+        },
+        {
+          "url": "https://www.python.org/success-stories/lincoln-loop-building-a-sustainable-business-inspired-by-pythons-ethos/",
+          "text": "Since its founding in 2007, Lincoln Loop has been building sites for their clients with Python and Django. They credit Python's philosophy of practicality and explicitness, along with the rich ecosystem of open-source libraries available on PyPI, as keys to their success. Additionally, the inclusivity, openness, and strong culture of collaboration in the Python community have enabled the agency to find and hire great people who are lifelong learners."
+        },
+        {
+          "url": "https://www.python.org/about/apps",
+          "text": "Lincoln Loop: Building a sustainable business inspired by Python’s ethos"
+        },
+        {
+          "url": "http://www.djangoproject.com/",
+          "text": "More"
+        },
+        {
+          "url": "http://www.pylonsproject.org/",
+          "text": "Django"
+        },
+        {
+          "url": "http://bottlepy.org",
+          "text": "Pyramid"
+        },
+        {
+          "url": "http://tornadoweb.org",
+          "text": "Bottle"
+        },
+        {
+          "url": "http://flask.pocoo.org/",
+          "text": "Tornado"
+        },
+        {
+          "url": "http://www.web2py.com/",
+          "text": "Flask"
+        },
+        {
+          "url": "http://wiki.python.org/moin/TkInter",
+          "text": "web2py"
+        },
+        {
+          "url": "https://wiki.gnome.org/Projects/PyGObject",
+          "text": "tkInter"
+        },
+        {
+          "url": "http://www.riverbankcomputing.co.uk/software/pyqt/intro",
+          "text": "PyGObject"
+        },
+        {
+          "url": "https://wiki.qt.io/PySide",
+          "text": "PyQt"
+        },
+        {
+          "url": "https://kivy.org/",
+          "text": "PySide"
+        },
+        {
+          "url": "http://www.wxpython.org/",
+          "text": "Kivy"
+        },
+        {
+          "url": "https://dearpygui.readthedocs.io/en/latest/",
+          "text": "wxPython"
+        },
+        {
+          "url": "http://www.scipy.org",
+          "text": "DearPyGui"
+        },
+        {
+          "url": "http://pandas.pydata.org/",
+          "text": "SciPy"
+        },
+        {
+          "url": "http://ipython.org",
+          "text": "Pandas"
+        },
+        {
+          "url": "http://buildbot.net/",
+          "text": "IPython"
+        },
+        {
+          "url": "http://trac.edgewall.org/",
+          "text": "Buildbot"
+        },
+        {
+          "url": "http://roundup.sourceforge.net/",
+          "text": "Trac"
+        },
+        {
+          "url": "http://www.ansible.com",
+          "text": "Roundup"
+        },
+        {
+          "url": "https://saltproject.io",
+          "text": "Ansible"
+        },
+        {
+          "url": "https://www.openstack.org",
+          "text": "Salt"
+        },
+        {
+          "url": "https://xon.sh",
+          "text": "OpenStack"
+        },
+        {
+          "url": "https://www.python.org/psf/",
+          "text": "xonsh"
+        },
+        {
+          "url": "https://www.python.org/psf/",
+          "text": "Python Software Foundation"
+        },
+        {
+          "url": "https://www.python.org/users/membership/",
+          "text": "Learn more"
+        },
+        {
+          "url": "https://www.python.org/psf/donations/",
+          "text": "Become a Member"
+        },
+        {
+          "url": "https://www.python.org/#python-network",
+          "text": "Donate to the PSF"
+        },
+        {
+          "url": "https://www.python.org/about/",
+          "text": "Back to Top"
+        },
+        {
+          "url": "https://www.python.org/about/apps/",
+          "text": "About"
+        },
+        {
+          "url": "https://www.python.org/about/quotes/",
+          "text": "Applications"
+        },
+        {
+          "url": "https://www.python.org/about/gettingstarted/",
+          "text": "Quotes"
+        },
+        {
+          "url": "https://www.python.org/about/help/",
+          "text": "Getting Started"
+        },
+        {
+          "url": "http://brochure.getpython.info/",
+          "text": "Help"
+        },
+        {
+          "url": "https://www.python.org/downloads/",
+          "text": "Python Brochure"
+        },
+        {
+          "url": "https://www.python.org/downloads/",
+          "text": "Downloads"
+        },
+        {
+          "url": "https://www.python.org/downloads/source/",
+          "text": "All releases"
+        },
+        {
+          "url": "https://www.python.org/downloads/windows/",
+          "text": "Source code"
+        },
+        {
+          "url": "https://www.python.org/downloads/macos/",
+          "text": "Windows"
+        },
+        {
+          "url": "https://www.python.org/download/other/",
+          "text": "macOS"
+        },
+        {
+          "url": "https://docs.python.org/3/license.html",
+          "text": "Other Platforms"
+        },
+        {
+          "url": "https://www.python.org/download/alternatives",
+          "text": "License"
+        },
+        {
+          "url": "https://www.python.org/doc/",
+          "text": "Alternative Implementations"
+        },
+        {
+          "url": "https://www.python.org/doc/",
+          "text": "Documentation"
+        },
+        {
+          "url": "https://www.python.org/doc/av",
+          "text": "Docs"
+        },
+        {
+          "url": "https://wiki.python.org/moin/BeginnersGuide",
+          "text": "Audio/Visual Talks"
+        },
+        {
+          "url": "https://devguide.python.org/",
+          "text": "Beginner's Guide"
+        },
+        {
+          "url": "https://docs.python.org/faq/",
+          "text": "Developer's Guide"
+        },
+        {
+          "url": "http://wiki.python.org/moin/Languages",
+          "text": "FAQ"
+        },
+        {
+          "url": "https://peps.python.org",
+          "text": "Non-English Docs"
+        },
+        {
+          "url": "https://wiki.python.org/moin/PythonBooks",
+          "text": "PEP Index"
+        },
+        {
+          "url": "https://www.python.org/doc/essays/",
+          "text": "Python Books"
+        },
+        {
+          "url": "https://www.python.org/community/",
+          "text": "Python Essays"
+        },
+        {
+          "url": "https://www.python.org/community/diversity/",
+          "text": "Community"
+        },
+        {
+          "url": "https://www.python.org/community/lists/",
+          "text": "Diversity"
+        },
+        {
+          "url": "https://www.python.org/community/irc/",
+          "text": "Mailing Lists"
+        },
+        {
+          "url": "https://www.python.org/community/forums/",
+          "text": "IRC"
+        },
+        {
+          "url": "https://www.python.org/psf/annual-report/2021/",
+          "text": "Forums"
+        },
+        {
+          "url": "https://www.python.org/community/workshops/",
+          "text": "PSF Annual Impact Report"
+        },
+        {
+          "url": "https://www.python.org/community/sigs/",
+          "text": "Python Conferences"
+        },
+        {
+          "url": "https://www.python.org/community/logos/",
+          "text": "Special Interest Groups"
+        },
+        {
+          "url": "https://wiki.python.org/moin/",
+          "text": "Python Logo"
+        },
+        {
+          "url": "https://www.python.org/psf/conduct/",
+          "text": "Python Wiki"
+        },
+        {
+          "url": "https://www.python.org/community/awards",
+          "text": "Code of Conduct"
+        },
+        {
+          "url": "https://www.python.org/psf/get-involved/",
+          "text": "Community Awards"
+        },
+        {
+          "url": "https://www.python.org/psf/community-stories/",
+          "text": "Get Involved"
+        },
+        {
+          "url": "https://www.python.org/success-stories/",
+          "text": "Shared Stories"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/arts/",
+          "text": "Success Stories"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/business/",
+          "text": "Arts"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/education/",
+          "text": "Business"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/engineering/",
+          "text": "Education"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/government/",
+          "text": "Engineering"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/scientific/",
+          "text": "Government"
+        },
+        {
+          "url": "https://www.python.org/success-stories/category/software-development/",
+          "text": "Scientific"
+        },
+        {
+          "url": "https://www.python.org/blogs/",
+          "text": "Software Development"
+        },
+        {
+          "url": "https://www.python.org/blogs/",
+          "text": "News"
+        },
+        {
+          "url": "https://www.python.org/psf/newsletter/",
+          "text": "Python News"
+        },
+        {
+          "url": "http://pyfound.blogspot.com/",
+          "text": "PSF Newsletter"
+        },
+        {
+          "url": "http://pycon.blogspot.com/",
+          "text": "PSF News"
+        },
+        {
+          "url": "http://planetpython.org/",
+          "text": "PyCon US News"
+        },
+        {
+          "url": "https://www.python.org/events/",
+          "text": "News from the Community"
+        },
+        {
+          "url": "https://www.python.org/events/python-events/",
+          "text": "Events"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/",
+          "text": "Python Events"
+        },
+        {
+          "url": "https://www.python.org/events/python-events/past/",
+          "text": "User Group Events"
+        },
+        {
+          "url": "https://www.python.org/events/python-user-group/past/",
+          "text": "Python Events Archive"
+        },
+        {
+          "url": "https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event",
+          "text": "User Group Events Archive"
+        },
+        {
+          "url": "https://www.python.org/dev/",
+          "text": "Submit an Event"
+        },
+        {
+          "url": "https://devguide.python.org/",
+          "text": "Contributing"
+        },
+        {
+          "url": "https://github.com/python/cpython/issues",
+          "text": "Developer's Guide"
+        },
+        {
+          "url": "https://mail.python.org/mailman/listinfo/python-dev",
+          "text": "Issue Tracker"
+        },
+        {
+          "url": "https://www.python.org/dev/core-mentorship/",
+          "text": "python-dev list"
+        },
+        {
+          "url": "https://www.python.org/dev/security/",
+          "text": "Core Mentorship"
+        },
+        {
+          "url": "https://www.python.org/#python-network",
+          "text": "Report a Security Issue"
+        },
+        {
+          "url": "https://www.python.org/about/help/",
+          "text": "Back to Top"
+        },
+        {
+          "url": "https://www.python.org/community/diversity/",
+          "text": "Help &"
+        },
+        {
+          "url": "https://github.com/python/pythondotorg/issues",
+          "text": "Contact"
+        },
+        {
+          "url": "https://status.python.org/",
+          "text": "Diversity"
+        },
+        {
+          "url": "https://www.python.org/psf-landing/",
+          "text": "Submit Website Bug"
+        },
+        {
+          "url": "https://www.python.org/about/legal/",
+          "text": "Status"
+        },
+        {
+          "url": "https://policies.python.org/python.org/Privacy-Notice/",
+          "text": "Python Software Foundation"
+        }
+      ]
+    }
+  ]
+}
