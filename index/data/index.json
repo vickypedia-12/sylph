@@ -1,0 +1,1318 @@
+{
+  "notic": {
+    "https://www.python.org/about/": [
+      0,
+      465
+    ]
+  },
+  "javascript": {
+    "https://www.python.org/about/": [
+      1,
+      9
+    ]
+  },
+  "essenti": {
+    "https://www.python.org/about/": [
+      2
+    ]
+  },
+  "websit": {
+    "https://www.python.org/about/": [
+      3,
+      455
+    ]
+  },
+  "interact": {
+    "https://www.python.org/about/": [
+      4
+    ]
+  },
+  "content": {
+    "https://www.python.org/about/": [
+      5,
+      13
+    ]
+  },
+  "limit": {
+    "https://www.python.org/about/": [
+      6
+    ]
+  },
+  "pleas": {
+    "https://www.python.org/about/": [
+      7
+    ]
+  },
+  "turn": {
+    "https://www.python.org/about/": [
+      8
+    ]
+  },
+  "full": {
+    "https://www.python.org/about/": [
+      10
+    ]
+  },
+  "experi": {
+    "https://www.python.org/about/": [
+      11
+    ]
+  },
+  "skip": {
+    "https://www.python.org/about/": [
+      12
+    ]
+  },
+  "close": {
+    "https://www.python.org/about/": [
+      14
+    ]
+  },
+  "python": {
+    "https://www.python.org/about/": [
+      15,
+      21,
+      42,
+      65,
+      67,
+      79,
+      84,
+      86,
+      107,
+      119,
+      124,
+      133,
+      148,
+      156,
+      174,
+      198,
+      209,
+      216,
+      223,
+      224,
+      246,
+      258,
+      261,
+      266,
+      279,
+      281,
+      289,
+      292,
+      300,
+      309,
+      312,
+      316,
+      322,
+      331,
+      345,
+      368,
+      370,
+      382,
+      387,
+      389,
+      410,
+      422,
+      427,
+      459
+    ]
+  },
+  "psf": {
+    "https://www.python.org/about/": [
+      16,
+      75,
+      109,
+      111,
+      283,
+      337,
+      378,
+      412,
+      414
+    ]
+  },
+  "doc": {
+    "https://www.python.org/about/": [
+      17,
+      55,
+      62,
+      358,
+      365
+    ]
+  },
+  "pypi": {
+    "https://www.python.org/about/": [
+      18,
+      219
+    ]
+  },
+  "job": {
+    "https://www.python.org/about/": [
+      19
+    ]
+  },
+  "commun": {
+    "https://www.python.org/about/": [
+      20,
+      69,
+      90,
+      117,
+      191,
+      295,
+      301,
+      330,
+      372,
+      393,
+      420
+    ]
+  },
+  "network": {
+    "https://www.python.org/about/": [
+      22,
+      241
+    ]
+  },
+  "donat": {
+    "https://www.python.org/about/": [
+      23,
+      336
+    ]
+  },
+  "menu": {
+    "https://www.python.org/about/": [
+      24
+    ]
+  },
+  "search": {
+    "https://www.python.org/about/": [
+      25
+    ]
+  },
+  "site": {
+    "https://www.python.org/about/": [
+      26
+    ]
+  },
+  "go": {
+    "https://www.python.org/about/": [
+      27
+    ]
+  },
+  "smaller": {
+    "https://www.python.org/about/": [
+      28
+    ]
+  },
+  "larger": {
+    "https://www.python.org/about/": [
+      29
+    ]
+  },
+  "reset": {
+    "https://www.python.org/about/": [
+      30
+    ]
+  },
+  "social": {
+    "https://www.python.org/about/": [
+      31
+    ]
+  },
+  "linkedin": {
+    "https://www.python.org/about/": [
+      32
+    ]
+  },
+  "mastodon": {
+    "https://www.python.org/about/": [
+      33
+    ]
+  },
+  "chat": {
+    "https://www.python.org/about/": [
+      34
+    ]
+  },
+  "irc": {
+    "https://www.python.org/about/": [
+      35,
+      73,
+      213,
+      376
+    ]
+  },
+  "twitter": {
+    "https://www.python.org/about/": [
+      36
+    ]
+  },
+  "applic": {
+    "https://www.python.org/about/": [
+      37,
+      215,
+      340
+    ]
+  },
+  "quot": {
+    "https://www.python.org/about/": [
+      38,
+      341
+    ]
+  },
+  "get": {
+    "https://www.python.org/about/": [
+      39,
+      92,
+      154,
+      170,
+      342,
+      395
+    ]
+  },
+  "start": {
+    "https://www.python.org/about/": [
+      40,
+      155,
+      343
+    ]
+  },
+  "help": {
+    "https://www.python.org/about/": [
+      41,
+      200,
+      275,
+      344,
+      449
+    ]
+  },
+  "brochur": {
+    "https://www.python.org/about/": [
+      43,
+      346
+    ]
+  },
+  "download": {
+    "https://www.python.org/about/": [
+      44,
+      182,
+      347
+    ]
+  },
+  "releas": {
+    "https://www.python.org/about/": [
+      45,
+      348
+    ]
+  },
+  "sourc": {
+    "https://www.python.org/about/": [
+      46,
+      249,
+      349
+    ]
+  },
+  "code": {
+    "https://www.python.org/about/": [
+      47,
+      88,
+      184,
+      196,
+      350,
+      391
+    ]
+  },
+  "window": {
+    "https://www.python.org/about/": [
+      48,
+      351
+    ]
+  },
+  "maco": {
+    "https://www.python.org/about/": [
+      49,
+      352
+    ]
+  },
+  "platform": {
+    "https://www.python.org/about/": [
+      50,
+      353
+    ]
+  },
+  "licens": {
+    "https://www.python.org/about/": [
+      51,
+      250,
+      259,
+      265,
+      267,
+      354
+    ]
+  },
+  "altern": {
+    "https://www.python.org/about/": [
+      52,
+      355
+    ]
+  },
+  "implement": {
+    "https://www.python.org/about/": [
+      53,
+      356
+    ]
+  },
+  "document": {
+    "https://www.python.org/about/": [
+      54,
+      199,
+      210,
+      357
+    ]
+  },
+  "talk": {
+    "https://www.python.org/about/": [
+      56,
+      359
+    ]
+  },
+  "beginn": {
+    "https://www.python.org/about/": [
+      57,
+      175,
+      178,
+      180,
+      187,
+      360
+    ]
+  },
+  "guid": {
+    "https://www.python.org/about/": [
+      58,
+      60,
+      176,
+      179,
+      181,
+      361,
+      363,
+      438
+    ]
+  },
+  "develop": {
+    "https://www.python.org/about/": [
+      59,
+      105,
+      233,
+      245,
+      247,
+      362,
+      408,
+      437
+    ]
+  },
+  "faq": {
+    "https://www.python.org/about/": [
+      61,
+      364
+    ]
+  },
+  "pep": {
+    "https://www.python.org/about/": [
+      63,
+      366
+    ]
+  },
+  "index": {
+    "https://www.python.org/about/": [
+      64,
+      218,
+      367
+    ]
+  },
+  "book": {
+    "https://www.python.org/about/": [
+      66,
+      369
+    ]
+  },
+  "essay": {
+    "https://www.python.org/about/": [
+      68,
+      371
+    ]
+  },
+  "divers": {
+    "https://www.python.org/about/": [
+      70,
+      328,
+      373,
+      452
+    ]
+  },
+  "mail": {
+    "https://www.python.org/about/": [
+      71,
+      203,
+      211,
+      374
+    ]
+  },
+  "list": {
+    "https://www.python.org/about/": [
+      72,
+      204,
+      212,
+      375,
+      441
+    ]
+  },
+  "forum": {
+    "https://www.python.org/about/": [
+      74,
+      377
+    ]
+  },
+  "annual": {
+    "https://www.python.org/about/": [
+      76,
+      379
+    ]
+  },
+  "impact": {
+    "https://www.python.org/about/": [
+      77,
+      380
+    ]
+  },
+  "report": {
+    "https://www.python.org/about/": [
+      78,
+      381,
+      444
+    ]
+  },
+  "confer": {
+    "https://www.python.org/about/": [
+      80,
+      193,
+      207,
+      383
+    ]
+  },
+  "special": {
+    "https://www.python.org/about/": [
+      81,
+      384
+    ]
+  },
+  "interest": {
+    "https://www.python.org/about/": [
+      82,
+      385
+    ]
+  },
+  "group": {
+    "https://www.python.org/about/": [
+      83,
+      122,
+      128,
+      386,
+      425,
+      431
+    ]
+  },
+  "logo": {
+    "https://www.python.org/about/": [
+      85,
+      388
+    ]
+  },
+  "wiki": {
+    "https://www.python.org/about/": [
+      87,
+      390
+    ]
+  },
+  "conduct": {
+    "https://www.python.org/about/": [
+      89,
+      392
+    ]
+  },
+  "award": {
+    "https://www.python.org/about/": [
+      91,
+      285,
+      394
+    ]
+  },
+  "involv": {
+    "https://www.python.org/about/": [
+      93,
+      396
+    ]
+  },
+  "share": {
+    "https://www.python.org/about/": [
+      94,
+      397
+    ]
+  },
+  "stori": {
+    "https://www.python.org/about/": [
+      95,
+      97,
+      398,
+      400
+    ]
+  },
+  "success": {
+    "https://www.python.org/about/": [
+      96,
+      399
+    ]
+  },
+  "art": {
+    "https://www.python.org/about/": [
+      98,
+      401
+    ]
+  },
+  "busi": {
+    "https://www.python.org/about/": [
+      99,
+      402
+    ]
+  },
+  "educ": {
+    "https://www.python.org/about/": [
+      100,
+      240,
+      403
+    ]
+  },
+  "engin": {
+    "https://www.python.org/about/": [
+      101,
+      404
+    ]
+  },
+  "govern": {
+    "https://www.python.org/about/": [
+      102,
+      405
+    ]
+  },
+  "scientif": {
+    "https://www.python.org/about/": [
+      103,
+      238,
+      406
+    ]
+  },
+  "softwar": {
+    "https://www.python.org/about/": [
+      104,
+      243,
+      262,
+      313,
+      317,
+      407,
+      460
+    ]
+  },
+  "news": {
+    "https://www.python.org/about/": [
+      106,
+      108,
+      112,
+      115,
+      116,
+      278,
+      409,
+      411,
+      415,
+      418,
+      419
+    ]
+  },
+  "newslett": {
+    "https://www.python.org/about/": [
+      110,
+      284,
+      413
+    ]
+  },
+  "pycon": {
+    "https://www.python.org/about/": [
+      113,
+      287,
+      416
+    ]
+  },
+  "us": {
+    "https://www.python.org/about/": [
+      114,
+      288,
+      417
+    ]
+  },
+  "event": {
+    "https://www.python.org/about/": [
+      118,
+      120,
+      123,
+      125,
+      129,
+      132,
+      297,
+      421,
+      423,
+      426,
+      428,
+      432,
+      435
+    ]
+  },
+  "user": {
+    "https://www.python.org/about/": [
+      121,
+      127,
+      424,
+      430
+    ]
+  },
+  "archiv": {
+    "https://www.python.org/about/": [
+      126,
+      130,
+      429,
+      433
+    ]
+  },
+  "submit": {
+    "https://www.python.org/about/": [
+      131,
+      434,
+      454
+    ]
+  },
+  "power": {
+    "https://www.python.org/about/": [
+      134,
+      291
+    ]
+  },
+  "fast": {
+    "https://www.python.org/about/": [
+      135
+    ]
+  },
+  "play": {
+    "https://www.python.org/about/": [
+      136
+    ]
+  },
+  "well": {
+    "https://www.python.org/about/": [
+      137
+    ]
+  },
+  "other": {
+    "https://www.python.org/about/": [
+      138
+    ]
+  },
+  "run": {
+    "https://www.python.org/about/": [
+      139
+    ]
+  },
+  "everywher": {
+    "https://www.python.org/about/": [
+      140
+    ]
+  },
+  "friendli": {
+    "https://www.python.org/about/": [
+      141,
+      188
+    ]
+  },
+  "easi": {
+    "https://www.python.org/about/": [
+      142,
+      157,
+      189
+    ]
+  },
+  "learn": {
+    "https://www.python.org/about/": [
+      143,
+      190,
+      264,
+      269,
+      333
+    ]
+  },
+  "open": {
+    "https://www.python.org/about/": [
+      144,
+      248
+    ]
+  },
+  "reason": {
+    "https://www.python.org/about/": [
+      145
+    ]
+  },
+  "peopl": {
+    "https://www.python.org/about/": [
+      146
+    ]
+  },
+  "use": {
+    "https://www.python.org/about/": [
+      147,
+      151,
+      167,
+      257
+    ]
+  },
+  "would": {
+    "https://www.python.org/about/": [
+      149
+    ]
+  },
+  "rather": {
+    "https://www.python.org/about/": [
+      150
+    ]
+  },
+  "anyth": {
+    "https://www.python.org/about/": [
+      152
+    ]
+  },
+  "els": {
+    "https://www.python.org/about/": [
+      153
+    ]
+  },
+  "pick": {
+    "https://www.python.org/about/": [
+      158
+    ]
+  },
+  "whether": {
+    "https://www.python.org/about/": [
+      159
+    ]
+  },
+  "first": {
+    "https://www.python.org/about/": [
+      160,
+      168
+    ]
+  },
+  "time": {
+    "https://www.python.org/about/": [
+      161
+    ]
+  },
+  "programm": {
+    "https://www.python.org/about/": [
+      162,
+      177,
+      332
+    ]
+  },
+  "experienc": {
+    "https://www.python.org/about/": [
+      163
+    ]
+  },
+  "languag": {
+    "https://www.python.org/about/": [
+      164,
+      324
+    ]
+  },
+  "follow": {
+    "https://www.python.org/about/": [
+      165
+    ]
+  },
+  "page": {
+    "https://www.python.org/about/": [
+      166
+    ]
+  },
+  "step": {
+    "https://www.python.org/about/": [
+      169
+    ]
+  },
+  "way": {
+    "https://www.python.org/about/": [
+      171,
+      202
+    ]
+  },
+  "write": {
+    "https://www.python.org/about/": [
+      172
+    ]
+  },
+  "program": {
+    "https://www.python.org/about/": [
+      173,
+      242,
+      323
+    ]
+  },
+  "instal": {
+    "https://www.python.org/about/": [
+      183
+    ]
+  },
+  "sampl": {
+    "https://www.python.org/about/": [
+      185
+    ]
+  },
+  "snippet": {
+    "https://www.python.org/about/": [
+      186
+    ]
+  },
+  "host": {
+    "https://www.python.org/about/": [
+      192,
+      220
+    ]
+  },
+  "meetup": {
+    "https://www.python.org/about/": [
+      194
+    ]
+  },
+  "collabor": {
+    "https://www.python.org/about/": [
+      195
+    ]
+  },
+  "much": {
+    "https://www.python.org/about/": [
+      197
+    ]
+  },
+  "along": {
+    "https://www.python.org/about/": [
+      201
+    ]
+  },
+  "keep": {
+    "https://www.python.org/about/": [
+      205
+    ]
+  },
+  "touch": {
+    "https://www.python.org/about/": [
+      206
+    ]
+  },
+  "workshop": {
+    "https://www.python.org/about/": [
+      208,
+      298
+    ]
+  },
+  "channel": {
+    "https://www.python.org/about/": [
+      214
+    ]
+  },
+  "packag": {
+    "https://www.python.org/about/": [
+      217
+    ]
+  },
+  "thousand": {
+    "https://www.python.org/about/": [
+      221
+    ]
+  },
+  "modul": {
+    "https://www.python.org/about/": [
+      222,
+      227
+    ]
+  },
+  "standard": {
+    "https://www.python.org/about/": [
+      225
+    ]
+  },
+  "librari": {
+    "https://www.python.org/about/": [
+      226
+    ]
+  },
+  "allow": {
+    "https://www.python.org/about/": [
+      228
+    ]
+  },
+  "endless": {
+    "https://www.python.org/about/": [
+      229
+    ]
+  },
+  "possibl": {
+    "https://www.python.org/about/": [
+      230
+    ]
+  },
+  "web": {
+    "https://www.python.org/about/": [
+      231
+    ]
+  },
+  "internet": {
+    "https://www.python.org/about/": [
+      232
+    ]
+  },
+  "databas": {
+    "https://www.python.org/about/": [
+      234
+    ]
+  },
+  "access": {
+    "https://www.python.org/about/": [
+      235
+    ]
+  },
+  "desktop": {
+    "https://www.python.org/about/": [
+      236
+    ]
+  },
+  "gui": {
+    "https://www.python.org/about/": [
+      237
+    ]
+  },
+  "numer": {
+    "https://www.python.org/about/": [
+      239
+    ]
+  },
+  "game": {
+    "https://www.python.org/about/": [
+      244
+    ]
+  },
+  "make": {
+    "https://www.python.org/about/": [
+      251
+    ]
+  },
+  "freeli": {
+    "https://www.python.org/about/": [
+      252
+    ]
+  },
+  "usabl": {
+    "https://www.python.org/about/": [
+      253
+    ]
+  },
+  "distribut": {
+    "https://www.python.org/about/": [
+      254
+    ]
+  },
+  "even": {
+    "https://www.python.org/about/": [
+      255
+    ]
+  },
+  "commerci": {
+    "https://www.python.org/about/": [
+      256
+    ]
+  },
+  "administ": {
+    "https://www.python.org/about/": [
+      260
+    ]
+  },
+  "foundat": {
+    "https://www.python.org/about/": [
+      263,
+      270,
+      314,
+      318,
+      461
+    ]
+  },
+  "osi": {
+    "https://www.python.org/about/": [
+      268
+    ]
+  },
+  "find": {
+    "https://www.python.org/about/": [
+      271
+    ]
+  },
+  "look": {
+    "https://www.python.org/about/": [
+      272
+    ]
+  },
+  "tri": {
+    "https://www.python.org/about/": [
+      273
+    ]
+  },
+  "comprehens": {
+    "https://www.python.org/about/": [
+      274
+    ]
+  },
+  "section": {
+    "https://www.python.org/about/": [
+      276
+    ]
+  },
+  "latest": {
+    "https://www.python.org/about/": [
+      277
+    ]
+  },
+  "alpha": {
+    "https://www.python.org/about/": [
+      280,
+      290
+    ]
+  },
+  "avail": {
+    "https://www.python.org/about/": [
+      282
+    ]
+  },
+  "grant": {
+    "https://www.python.org/about/": [
+      286
+    ]
+  },
+  "togeth": {
+    "https://www.python.org/about/": [
+      293
+    ]
+  },
+  "thank": {
+    "https://www.python.org/about/": [
+      294
+    ]
+  },
+  "upcom": {
+    "https://www.python.org/about/": [
+      296
+    ]
+  },
+  "creat": {
+    "https://www.python.org/about/": [
+      299
+    ]
+  },
+  "django": {
+    "https://www.python.org/about/": [
+      302
+    ]
+  },
+  "girl": {
+    "https://www.python.org/about/": [
+      303
+    ]
+  },
+  "koforidua": {
+    "https://www.python.org/about/": [
+      304
+    ]
+  },
+  "djangocongress": {
+    "https://www.python.org/about/": [
+      305
+    ]
+  },
+  "jp": {
+    "https://www.python.org/about/": [
+      306
+    ]
+  },
+  "pyconf": {
+    "https://www.python.org/about/": [
+      307
+    ]
+  },
+  "hyderabad": {
+    "https://www.python.org/about/": [
+      308
+    ]
+  },
+  "weekend": {
+    "https://www.python.org/about/": [
+      310
+    ]
+  },
+  "abuja": {
+    "https://www.python.org/about/": [
+      311
+    ]
+  },
+  "mission": {
+    "https://www.python.org/about/": [
+      315
+    ]
+  },
+  "promot": {
+    "https://www.python.org/about/": [
+      319
+    ]
+  },
+  "protect": {
+    "https://www.python.org/about/": [
+      320
+    ]
+  },
+  "advanc": {
+    "https://www.python.org/about/": [
+      321
+    ]
+  },
+  "support": {
+    "https://www.python.org/about/": [
+      325
+    ]
+  },
+  "facilit": {
+    "https://www.python.org/about/": [
+      326
+    ]
+  },
+  "growth": {
+    "https://www.python.org/about/": [
+      327
+    ]
+  },
+  "intern": {
+    "https://www.python.org/about/": [
+      329
+    ]
+  },
+  "becom": {
+    "https://www.python.org/about/": [
+      334
+    ]
+  },
+  "member": {
+    "https://www.python.org/about/": [
+      335
+    ]
+  },
+  "back": {
+    "https://www.python.org/about/": [
+      338,
+      447
+    ]
+  },
+  "top": {
+    "https://www.python.org/about/": [
+      339,
+      448
+    ]
+  },
+  "contribut": {
+    "https://www.python.org/about/": [
+      436
+    ]
+  },
+  "issu": {
+    "https://www.python.org/about/": [
+      439,
+      446
+    ]
+  },
+  "tracker": {
+    "https://www.python.org/about/": [
+      440
+    ]
+  },
+  "core": {
+    "https://www.python.org/about/": [
+      442
+    ]
+  },
+  "mentorship": {
+    "https://www.python.org/about/": [
+      443
+    ]
+  },
+  "secur": {
+    "https://www.python.org/about/": [
+      445
+    ]
+  },
+  "gener": {
+    "https://www.python.org/about/": [
+      450
+    ]
+  },
+  "contact": {
+    "https://www.python.org/about/": [
+      451
+    ]
+  },
+  "initi": {
+    "https://www.python.org/about/": [
+      453
+    ]
+  },
+  "bug": {
+    "https://www.python.org/about/": [
+      456
+    ]
+  },
+  "statu": {
+    "https://www.python.org/about/": [
+      457
+    ]
+  },
+  "copyright": {
+    "https://www.python.org/about/": [
+      458
+    ]
+  },
+  "legal": {
+    "https://www.python.org/about/": [
+      462
+    ]
+  },
+  "statement": {
+    "https://www.python.org/about/": [
+      463
+    ]
+  },
+  "privaci": {
+    "https://www.python.org/about/": [
+      464
+    ]
+  },
+  "script": {
+    "https://www.python.org/about/": [
+      466,
+      467
+    ]
+  }
+}

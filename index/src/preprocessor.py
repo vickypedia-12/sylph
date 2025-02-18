@@ -7,7 +7,8 @@ from typing import List
 class TextPreprocessor:
     def __init__(self):
         nltk.download('punkt')
-        nltk.downlaod('stopwords')
+        nltk.download('punkt_tab')
+        nltk.download('stopwords')
         self.stemmer = PorterStemmer()
         self.stop_words = set(stopwords.words('english'))
 
