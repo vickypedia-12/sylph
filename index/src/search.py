@@ -4,6 +4,8 @@ from .preprocessor import TextPreprocessor
 from .indexer import InvertedIndex
 from ranking.src.ranker import SearchRanker, TFIDFScorer, DocumentScore
 
+
+
 class SearchEngine:
     def __init__(self, index: InvertedIndex):
         self.index = index
